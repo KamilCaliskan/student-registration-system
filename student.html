@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Öğrenci Kayıt Sistemi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Öğrenci Kayıt Sistemi</h1>
+    <form id="studentForm">
+      <label for="name">Adı Soyadı:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="studentID">Öğrenci Numarası:</label>
+      <input type="text" id="studentID" name="studentID" required>
+      
+      <label for="department">Bölümü:</label>
+      <input type="text" id="department" name="department">
+      
+      <button type="submit">Kaydet</button>
+    </form>
+    <div id="message"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
